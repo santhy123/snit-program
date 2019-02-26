@@ -1,4 +1,4 @@
-num=90
+num=90 
 if(num>100):
     print("Number is greater then 100")
 else:
