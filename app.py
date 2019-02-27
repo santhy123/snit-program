@@ -11,6 +11,6 @@ def contact():
     return render_template("index1.html")
 @app.route("/abort")
 def abort():
-    return render_template("index3.html")
+    return render_template("home.html")
 if (__name__=="__main__"):
     app.run(debug=True)
